@@ -1,0 +1,544 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+.container {
+
+    height: auto;
+    width: 100%;
+
+}
+
+.bg {
+
+
+    width: 100%;
+    height: 100%;
+    background-image: url("/images/appearance-BG.png");
+}
+
+.container1 {
+
+
+    display: flex;
+    justify-content: center;
+    column-gap: 80px;
+    height: 100%;
+    width: 100%;
+
+
+
+}
+
+
+li,
+a {
+    font-size: 16px;
+    color: #edf0f1;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 10px 2%;
+
+    width: 100%;
+    height: 61px;
+    left: 0px;
+    top: 0px;
+    border-bottom: 1px solid #BFABEA;
+    background: linear-gradient(105.6deg, rgba(142, 15, 160, 0.07) 0%, rgba(148, 226, 251, 0.17) 100%);
+
+
+
+}
+
+.emersive-header {
+    position: absolute;
+    left: 1%;
+    right: 16.3%;
+    top: 5%;
+    background: radial-gradient(50.05% 49.92% at 50.31% 47.52%, #FFFFFF 0%, #E0D2FF 1%, #BB9CFF 3%, #9C6FFF 5%, #844CFF 7%, #7333FF 9%, #6924FF 10%, #651FFF 11%, rgba(90, 28, 227, 0.89) 16%, rgba(69, 21, 174, 0.68) 25%, rgba(51, 16, 128, 0.5) 34%, rgba(35, 11, 88, 0.35) 44%, rgba(22, 7, 56, 0.22) 54%, rgba(12, 4, 31, 0.12) 64%, rgba(5, 2, 14, 0.05) 75%, rgba(1, 0, 3, 0.01) 87%, rgba(0, 0, 0, 0) 100%);
+    background-blend-mode: screen;
+    mix-blend-mode: screen;
+
+}
+
+.h_decoration {
+
+    position: absolute;
+    left: 35%;
+    right: 34.18%;
+    top: -1%;
+    bottom: 85.46%;
+
+    background-blend-mode: screen;
+
+
+    z-index: -1;
+}
+
+.h2_decoration {
+    position: absolute;
+    left: 35%;
+    right: 33.59%;
+    top: -1%;
+    bottom: 84.6%;
+    background-blend-mode: screen;
+    z-index: -1;
+}
+
+.h3_decoration {
+    position: absolute;
+    left: 35%;
+    right: 33.59%;
+    top: 6%;
+    bottom: 84.6%;
+    background-blend-mode: screen;
+
+    z-index: -1;
+}
+
+.rectangle_bg {
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+
+.points {
+    cursor: pointer;
+    height: 40px;
+}
+
+.nav_links {
+    list-style: none;
+    cursor: pointer;
+
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+    cursor: pointer;
+}
+
+.nav_link1 li {
+    display: inline-block;
+    padding: 0px 20px;
+    cursor: pointer;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: #FF4820;
+    ;
+}
+
+.nav_link1 li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_link1 li a:hover {
+    color: #FF4820;
+}
+
+.card {
+    background-image: url("/images/Mask\ group.png");
+    padding: 10px;
+    padding-left: 30px;
+    padding-top: 70px;
+    width: 90%;
+    height: 68%;
+    margin-top: 4%;
+    margin-left: 5%;
+    border-radius: 10px;
+
+}
+
+.card h1 {
+
+    font-size: 40px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: inline-block;
+    color: #fff;
+
+}
+
+.card_time {
+    background: linear-gradient(90deg, #BBD2C5 0%, #839ead 100%);
+    width: 20%;
+    color: black;
+    height: 10%;
+    margin-left: 75%;
+    position: relative;
+    bottom: 90px;
+
+}
+
+.card_time h3 {
+    font-size: 20px;
+    padding-top: 20px;
+    text-align: center;
+    color: black;
+}
+
+.card_time h4 {
+    font-size: 10px;
+    padding-top: 10px;
+    text-align: center;
+
+
+}
+
+.button {
+    width: 100%;
+    height: 30px;
+    margin-top: 30px;
+    background: whitesmoke;
+    border: 2px solid whitesmoke;
+    padding: 0 1rem;
+    color: purple;
+    cursor: pointer;
+    outline: none;
+
+}
+
+.button1 {
+
+    float: right;
+    width: 30%;
+    height: 40px;
+    margin-right: 10px;
+    justify-items: center;
+
+    background: linear-gradient(rgba(0, 40, 83, .2) 25%, rgb(61, 95, 175));
+    background-blend-mode: screen;
+    border: 2px solid #3f78ce;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    border-radius: 12px;
+
+}
+
+.card1 {
+    background-image: url("/images/1_0.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    padding: 20px;
+
+    padding-top: 70px;
+    width: 43%;
+    height: auto;
+    margin-top: 2%;
+
+
+}
+
+.card1 h1 {
+
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: inline-block;
+    color: #fff;
+
+}
+
+.card_time1 {
+    background: linear-gradient(rgba(0, 40, 83, 80) .1%, rgb(23, 63, 122, 0.3) 0%);
+    background-blend-mode: screen;
+    width: 300px;
+    height: auto;
+    margin-top: 20%;
+}
+
+.card_time1 h3 {
+    font-size: 15px;
+
+    padding: 20px;
+    color: #edf0f1;
+}
+
+.card_time1 h4 {
+    font-size: 10px;
+    padding-top: 5px;
+    padding-left: 20px;
+    color: #edf0f1;
+}
+
+
+.points1 {
+
+    cursor: pointer;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.points2 {
+
+    cursor: pointer;
+    height: 40px;
+    float: right;
+    position: relative;
+    bottom: 290px;
+    right: 50px;
+
+
+}
+
+.points3 {
+
+    cursor: pointer;
+    height: 40px;
+    float: right;
+    position: relative;
+    bottom: 270px;
+    right: 50px;
+
+
+}
+
+
+
+.card2 {
+    background-image: url("/images/box2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    padding: 20px;
+
+    padding-top: 70px;
+    width: 43%;
+    height: auto;
+    margin-top: 2%;
+}
+
+.card2 h1 {
+
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: inline-block;
+    color: #fff;
+
+}
+
+.card_time2 {
+    background: linear-gradient(rgba(0, 40, 83, 80) .1%, rgb(23, 63, 122, 0.3) 0%);
+    background-blend-mode: screen;
+    width: 300px;
+    height: 30%;
+    margin-top: 15%;
+}
+
+.card_time2 h3 {
+    font-size: 15px;
+
+    padding: 20px;
+    color: #edf0f1;
+}
+
+.card_time2 h4 {
+    font-size: 10px;
+    padding-top: 5px;
+    padding-left: 20px;
+    color: #edf0f1;
+}
+
+.mainwrap {
+
+    padding: 10px;
+}
+
+@media (max-width:1264px) {
+
+    .points2,
+    .points3 {
+        position: relative;
+        bottom: 230px;
+        left: 10px;
+        height: 30px;
+    }
+}
+
+@media (max-width:1118px) {
+    .points {
+        left: 8%;
+    }
+
+    .container1 {
+        column-gap: 50px;
+    }
+
+}
+
+@media (max-width:944px) {
+    .points {
+        left: 6%;
+        top: 20px;
+        width: 70px;
+        height: auto;
+    }
+
+    .points2,
+    .points3 {
+        position: relative;
+        bottom: 215px;
+        left: 20px;
+        height: 20px;
+    }
+
+    .container1 {
+        column-gap: 60px;
+    }
+
+    header ul li a {
+        font-size: 15px;
+        padding: none;
+    }
+}
+
+@media (max-width:860px) {
+    .points {
+        left: 6%;
+        top: 20px;
+        width: 60px;
+        height: 50px;
+    }
+
+
+    .container1 {
+        column-gap: 30px;
+    }
+
+    .points2,
+    .points3 {
+        position: relative;
+        bottom: 100px;
+        left: 10px;
+        height: 20px;
+    }
+
+    .card_time1,
+    .card_time2 {
+        width: 160px;
+        height: 20%;
+        margin-top: 25%;
+
+    }
+
+    .card_time {
+        width: 40%;
+        margin-left: 55%;
+        position: relative;
+        bottom: 10px;
+    }
+
+    header ul li a {
+        font-size: 12px;
+        padding: none;
+    }
+
+
+}
+
+@media (max-width:570px) {
+
+    .points {
+        left: 1%;
+    }
+
+    .points {
+        position: relative;
+        top: 8%;
+        width: 60px;
+        height: auto;
+    }
+
+    .nav_links li a {
+        font-size: 8px;
+
+
+    }
+
+    .nav_link1 li a {
+        font-size: 9px;
+
+    }
+
+    .card_time1,
+    .card_time2 {
+        width: 160px;
+        height: 20%;
+        margin-top: 25%;
+
+    }
+
+
+
+    .card_time1 h3 {
+        font-size: 10px;
+
+        padding: 10px;
+        color: #edf0f1;
+    }
+
+    .card_time1 h4 {
+        font-size: 6px;
+        padding-top: 5px;
+        padding-left: 10px;
+        color: #edf0f1;
+    }
+
+    .card_time2 h3 {
+        font-size: 10px;
+
+        padding: 10px;
+        color: #edf0f1;
+    }
+
+    .card_time2 h4 {
+        font-size: 6px;
+        padding-top: 5px;
+        padding-left: 10px;
+        color: #edf0f1;
+    }
+
+    .button1 {
+        width: auto;
+        height: auto;
+        font-size: 8px;
+    }
+
+    .card_time {
+        width: 40%;
+        margin-left: 55%;
+        position: relative;
+        bottom: 8px;
+    }
+
+    .points1 {
+
+        height: 20px;
+    }
+
+    .points2,
+    .points3 {
+        position: relative;
+        bottom: 220px;
+        left: 10px;
+        height: 20px;
+    }
+
+}
